@@ -81,6 +81,7 @@
               {{ product.title | escape }}
             </h1>
           {%- when 'price' -%}
+            {% if customer and customer.tags contain 'approved' %}
             <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
             </div>
@@ -89,6 +90,7 @@
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
+              {% endif %}
             </div>
           {%- when 'description' -%}
             {%- if product.description != blank -%}
@@ -115,29 +117,31 @@
               </details>
             </div>
           {%- when 'quantity_selector' -%}
-            <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
-              <label class="form__label" for="Quantity-{{ section.id }}">
-                {{ 'products.product.quantity.label' | t }}
-              </label>
-              <quantity-input class="quantity">
-                <button class="quantity__button no-js-hidden" name="minus" type="button">
-                  <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
-                  {% render 'icon-minus' %}
-                </button>
-                <input class="quantity__input"
-                    type="number"
-                    name="quantity"
-                    id="Quantity-{{ section.id }}"
-                    min="1"
-                    value="1"
-                    form="product-form-{{ section.id }}"
-                  >
-                <button class="quantity__button no-js-hidden" name="plus" type="button">
-                  <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
-                  {% render 'icon-plus' %}
-                </button>
-              </quantity-input>
-            </div>
+          {% if customer and customer.tags contain 'approved' %}
+          <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
+            <label class="form__label" for="Quantity-{{ section.id }}">
+              {{ 'products.product.quantity.label' | t }}
+            </label>
+            <quantity-input class="quantity">
+              <button class="quantity__button no-js-hidden" name="minus" type="button">
+                <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
+                {% render 'icon-minus' %}
+              </button>
+              <input class="quantity__input"
+              type="number"
+              name="quantity"
+              id="Quantity-{{ section.id }}"
+              min="1"
+              value="1"
+              form="product-form-{{ section.id }}"
+              >
+              <button class="quantity__button no-js-hidden" name="plus" type="button">
+                <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
+                {% render 'icon-plus' %}
+              </button>
+            </quantity-input>
+          </div>
+          {% endif %}
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.link_label | default: block.settings.page.title }}</button>
@@ -254,62 +258,64 @@
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
-            <div {{ block.shopify_attributes }}>
-              <product-form class="product-form">
-                {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                  <div class="product-form__buttons">
-                    <button
-                      type="submit"
-                      name="add"
-                      class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
-                    {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
-                    >
-                        {%- if product.selected_or_first_available_variant.available -%}
-                          {{ 'products.product.add_to_cart' | t }}
-                        {%- else -%}
-                          {{ 'products.product.sold_out' | t }}
-                        {%- endif -%}
-                    </button>
-                    {%- if block.settings.show_dynamic_checkout -%}
-                      {{ form | payment_button }}
-                    {%- endif -%}
-                  </div>
-                {%- endform -%}
-              </product-form>
-
-              {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
-
-              {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
-
-              <pickup-availability class="product__pickup-availabilities no-js-hidden"
-                {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %} available{% endif %}
-                data-base-url="{{ shop.url }}{{ routes.root_url }}"
-                data-variant-id="{{ product.selected_or_first_available_variant.id }}"
-                data-has-only-default-variant="{{ product.has_only_default_variant }}"
-              >
-                <template>
-                  <pickup-availability-preview class="pickup-availability-preview">
-                    {% render 'icon-unavailable' %}
-                    <div class="pickup-availability-info">
-                      <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}</p>
-                      <button class="pickup-availability-button link link--text underlined-link">{{ 'products.product.pickup_availability.refresh' | t }}</button>
-                    </div>
-                  </div>
-                </template>
-              </pickup-availability>
+          {% if customer and customer.tags contain 'approved' %}
+          <div {{ block.shopify_attributes }}>
+            <product-form class="product-form">
+              {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+              <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+              <div class="product-form__buttons">
+                <button
+                type="submit"
+                name="add"
+                class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
+                {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
+                >
+                {%- if product.selected_or_first_available_variant.available -%}
+                {{ 'products.product.add_to_cart' | t }}
+                {%- else -%}
+                {{ 'products.product.sold_out' | t }}
+                {%- endif -%}
+              </button>
+              {%- if block.settings.show_dynamic_checkout -%}
+              {{ form | payment_button }}
+              {%- endif -%}
             </div>
-
-            <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
-          {%- endcase -%}
-        {%- endfor -%}
+            {%- endform -%}
+          </product-form>
+          
+          {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
+          
+          {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
+          
+          <pickup-availability class="product__pickup-availabilities no-js-hidden"
+          {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %} available{% endif %}
+          data-base-url="{{ shop.url }}{{ routes.root_url }}"
+          data-variant-id="{{ product.selected_or_first_available_variant.id }}"
+          data-has-only-default-variant="{{ product.has_only_default_variant }}"
+          >
+          <template>
+            <pickup-availability-preview class="pickup-availability-preview">
+              {% render 'icon-unavailable' %}
+              <div class="pickup-availability-info">
+                <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}</p>
+                <button class="pickup-availability-button link link--text underlined-link">{{ 'products.product.pickup_availability.refresh' | t }}</button>
+              </div>
+            </div>
+            {% endif %}
+          </template>
+        </pickup-availability>
       </div>
+      
+      <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
+      {%- endcase -%}
+      {%- endfor -%}
     </div>
   </div>
-  {%- render 'cart-notification' -%}
+</div>
+{%- render 'cart-notification' -%}
 
-  <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal">
-    <div role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
+<product-modal id="ProductModal-{{ section.id }}" class="product-media-modal">
+  <div role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
       <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
 
       <div class="product-media-modal__content" role="document" aria-label="{{ 'products.modal.label' | t }}" tabindex="0">
