@@ -90,8 +90,8 @@
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
-              {% endif %}
             </div>
+            {% endif %}
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
