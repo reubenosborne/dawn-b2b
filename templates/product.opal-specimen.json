@@ -18,7 +18,7 @@
         "subtitle": {
           "type": "text",
           "settings": {
-            "text": "Subtitle",
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
           }
         },

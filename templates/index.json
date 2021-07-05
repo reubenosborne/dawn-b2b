@@ -2,9 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
       "blocks": {
         "heading": {
           "type": "heading",
@@ -16,42 +13,111 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_label_2": ""
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
-        }
-      },
-      "block_order": ["heading", "button"]
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products"
-      }
-    },
-    "image_text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading"
-        },
-        "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "button"
         }
       },
       "block_order": [
         "heading",
-        "text",
         "button"
-      ]
+      ],
+      "settings": {
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "1625392832dcd2c0c1": {
+      "type": "featured-blog",
+      "blocks": {
+        "1625392832dcd2c0c1-0": {
+          "type": "title",
+          "settings": {
+            "show_date": true,
+            "show_author": false
+          }
+        },
+        "1625392832dcd2c0c1-1": {
+          "type": "summary",
+          "settings": {
+          }
+        },
+        "1625392832dcd2c0c1-2": {
+          "type": "link",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1625392832dcd2c0c1-0",
+        "1625392832dcd2c0c1-1",
+        "1625392832dcd2c0c1-2"
+      ],
+      "settings": {
+        "heading": "Blog posts",
+        "blog": "news",
+        "post_limit": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "soft_background": false
+      }
+    },
+    "16253930654c262d95": {
+      "type": "collage",
+      "blocks": {
+        "16253930654c262d95-1": {
+          "type": "product",
+          "settings": {
+            "product": "boulder-opal",
+            "secondary_background": false,
+            "second_image": true,
+            "image_padding": false
+          }
+        },
+        "16253930654c262d95-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "16253930654c262d95-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "16253930654c262d95-1",
+        "16253930654c262d95-0",
+        "16253930654c262d95-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "column"
+      }
+    },
+    "1625393079171fdbbd": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_products",
-    "image_text"
+    "1625392832dcd2c0c1",
+    "16253930654c262d95",
+    "1625393079171fdbbd"
   ]
 }
