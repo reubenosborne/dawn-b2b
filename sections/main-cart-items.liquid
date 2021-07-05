@@ -26,9 +26,11 @@
             <thead>
               <tr>
                 <th class="caption-with-letter-spacing" colspan="2" scope="col">{{ 'sections.cart.headings.product' | t }}</th>
+                {% if customer and customer.tags contains 'approved' %}
                 <th class="right caption-with-letter-spacing" colspan="1" scope="col">{{ 'sections.cart.headings.price' | t }}</th>
                 <th class="cart-items__heading--wide medium-up caption-with-letter-spacing" colspan="1" scope="col">{{ 'sections.cart.headings.quantity' | t }}</th>
                 <th class="medium-up right caption-with-letter-spacing" colspan="1" scope="col">{{ 'sections.cart.headings.total' | t }}</th>
+                {% endif %}
               </tr>
             </thead>
 
@@ -107,6 +109,7 @@
                     </p>
                   </td>
 
+                  {% if customer and customer.tags contains 'approved' %}
                   <td class="cart-item__prices right">
                     <div class="cart-item__price-wrapper">
                       {%- if item.original_price != item.final_price -%}
@@ -197,7 +200,7 @@
                         </span>
                       {%- endif -%}
                     </div>
-
+                    
                     <cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
                       <a href="{{ item.url_to_remove }}" class="button button--tertiary" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
                         {% render 'icon-remove' %}
@@ -205,6 +208,7 @@
                     </cart-remove-button>
                   </td>
                 </tr>
+                {% endif %}
               {%- endfor -%}
             </tbody>
           </table>
