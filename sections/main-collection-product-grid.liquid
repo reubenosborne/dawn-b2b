@@ -69,6 +69,7 @@
                   </div>
                 </details>
               {% when 'price_range' %}
+              {% if customer and customer.tags contains 'approved' %}  
                 {% liquid
                   assign currencies_using_comma_decimals = 'ANG,ARS,BRL,BYN,BYR,CLF,CLP,COP,CRC,CZK,DKK,EUR,HRK,HUF,IDR,ISK,MZN,NOK,PLN,RON,RUB,SEK,TRY,UYU,VES,VND' | split: ','
                   assign uses_comma_decimals = false
@@ -132,6 +133,7 @@
                     </div>
                   </price-range>
                 </details>
+              {% endif %}
               {% endcase %}
             {%- endfor -%}
             <noscript>
