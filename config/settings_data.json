@@ -5,6 +5,7 @@
     "colors_accent_2": "#429baa",
     "colors_text": "#161413",
     "colors_outline_button_labels": "#522214",
+    "colors_background_1": "#ffffff",
     "colors_background_2": "#fff4eb",
     "sections": {
       "announcement-bar": {
