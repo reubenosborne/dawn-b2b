@@ -1,12 +1,18 @@
 {
   "current": {
-    "colors_solid_button_labels": "#ebf7ff",
+    "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#bd5a4a",
     "colors_accent_2": "#429baa",
     "colors_text": "#161413",
-    "colors_outline_button_labels": "#522214",
+    "colors_outline_button_labels": "#25565e",
     "colors_background_1": "#ffffff",
-    "colors_background_2": "#fff4eb",
+    "colors_background_2": "#ecf6f8",
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
+    "share_twitter": false,
+    "share_pinterest": false,
+    "checkout_accent_color": "#337984",
+    "checkout_button_color": "#337984",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -14,7 +20,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Welcome to our new catalogue website, featuring our high end Opals",
               "color_scheme": "background-2",
               "link": ""
             }
@@ -29,8 +35,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo_width": 100,
-          "logo_position": "middle-left",
+          "logo_width": 130,
+          "logo_position": "top-left",
           "menu": "main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
@@ -51,10 +57,10 @@
           "footer-0"
         ],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "color_scheme": "inverse",
+          "newsletter_enable": false,
           "newsletter_heading": "Sign up to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true

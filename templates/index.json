@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "Australian Boulder Opal"
           }
         },
         "button": {
@@ -14,10 +14,10 @@
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_1": true,
+            "button_label_2": "Login",
+            "button_link_2": "\/account\/login",
+            "button_style_secondary_2": true
           }
         }
       },
@@ -26,98 +26,84 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/desert-mountain.jpg",
+        "image_2": "shopify:\/\/shop_images\/heating-metal-with-blowtorch.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
     },
-    "1625392832dcd2c0c1": {
-      "type": "featured-blog",
+    "162858060615c4f238": {
+      "type": "image-with-text",
       "blocks": {
-        "1625392832dcd2c0c1-0": {
-          "type": "title",
+        "162858060615c4f238-0": {
+          "type": "heading",
           "settings": {
-            "show_date": true,
-            "show_author": false
+            "heading": "Image with text"
           }
         },
-        "1625392832dcd2c0c1-1": {
-          "type": "summary",
+        "162858060615c4f238-1": {
+          "type": "text",
           "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "1625392832dcd2c0c1-2": {
-          "type": "link",
+        "162858060615c4f238-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "162858060615c4f238-0",
+        "162858060615c4f238-1",
+        "162858060615c4f238-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/a-kangaroo-looks-straight-at-the-camera.jpg",
+        "height": "small",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
+    "162858026462b45537": {
+      "type": "newsletter",
+      "blocks": {
+        "162858026462b45537-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join our insider's club"
+          }
+        },
+        "162858026462b45537-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "162858026462b45537-2": {
+          "type": "email_form",
           "settings": {
           }
         }
       },
       "block_order": [
-        "1625392832dcd2c0c1-0",
-        "1625392832dcd2c0c1-1",
-        "1625392832dcd2c0c1-2"
+        "162858026462b45537-0",
+        "162858026462b45537-1",
+        "162858026462b45537-2"
       ],
       "settings": {
-        "heading": "Blog posts",
-        "blog": "news",
-        "post_limit": 3,
-        "show_view_all": true,
-        "show_image": true,
-        "soft_background": false
-      }
-    },
-    "16253930654c262d95": {
-      "type": "collage",
-      "blocks": {
-        "16253930654c262d95-1": {
-          "type": "product",
-          "settings": {
-            "product": "boulder-opal",
-            "secondary_background": false,
-            "second_image": true,
-            "image_padding": false
-          }
-        },
-        "16253930654c262d95-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video for customers using screen readers",
-            "image_padding": false
-          }
-        },
-        "16253930654c262d95-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "16253930654c262d95-1",
-        "16253930654c262d95-0",
-        "16253930654c262d95-2"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "column"
-      }
-    },
-    "1625393079171fdbbd": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": ""
+        "color_scheme": "accent-1",
+        "full_width": true
       }
     }
   },
   "order": [
     "image_banner",
-    "1625392832dcd2c0c1",
-    "16253930654c262d95",
-    "1625393079171fdbbd"
+    "162858060615c4f238",
+    "162858026462b45537"
   ]
 }
