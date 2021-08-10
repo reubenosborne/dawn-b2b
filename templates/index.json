@@ -63,7 +63,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_8693_2_720x_0a97bb56-e57f-48e1-9719-4f8dd5799bbc.jpg",
-        "height": "large",
+        "height": "small",
         "color_scheme": "background-2",
         "layout": "image_first"
       }
