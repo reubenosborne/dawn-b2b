@@ -11,6 +11,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "share_twitter": false,
     "share_pinterest": false,
+    "social_facebook_link": "https:\/\/facebook.com\/brokenrivermining",
+    "social_instagram_link": "http:\/\/instagram.com\/brokenrivermining",
+    "social_youtube_link": "https:\/\/www.youtube.com\/brokenrivermining",
     "checkout_accent_color": "#337984",
     "checkout_button_color": "#337984",
     "sections": {
@@ -59,7 +62,7 @@
         "settings": {
           "color_scheme": "inverse",
           "newsletter_enable": false,
-          "newsletter_heading": "Sign up to our emails",
+          "newsletter_heading": "",
           "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
