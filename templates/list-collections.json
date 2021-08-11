@@ -4,9 +4,9 @@
       "type": "main-list-collections",
       "settings": {
         "title": "Collections",
-        "sort": "date_reversed",
-        "image_ratio": "square",
-        "color_scheme": "accent-2",
+        "sort": "alphabetical",
+        "image_ratio": "portrait",
+        "color_scheme": "accent-1",
         "image_padding": false
       }
     }
