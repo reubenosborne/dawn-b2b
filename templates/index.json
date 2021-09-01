@@ -1,12 +1,38 @@
 {
   "sections": {
+    "1630453294816c5d56": {
+      "type": "rich-text",
+      "blocks": {
+        "1630453294816c5d56-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Australian Boulder Opal",
+            "heading_size": "medium"
+          }
+        },
+        "1630453294816c5d56-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630453294816c5d56-0",
+        "1630453294816c5d56-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Australian Boulder Opal"
+            "heading": "Our Exclusive Catalogue"
           }
         },
         "button": {
@@ -29,6 +55,48 @@
         "image": "shopify:\/\/shop_images\/desert-mountain.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "16304545983b9706e9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our most premium opal",
+        "collection": "all-opals",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    },
+    "163045369666223709": {
+      "type": "image-banner",
+      "blocks": {
+        "163045369666223709-1": {
+          "type": "text",
+          "settings": {
+            "text": "OUR DIFFERENCE"
+          }
+        },
+        "163045369666223709-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Directly from our family owned mines to you."
+          }
+        }
+      },
+      "block_order": [
+        "163045369666223709-1",
+        "163045369666223709-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/auswp2.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "inverse",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
@@ -101,7 +169,10 @@
     }
   },
   "order": [
+    "1630453294816c5d56",
     "image_banner",
+    "16304545983b9706e9",
+    "163045369666223709",
     "162858060615c4f238",
     "162858026462b45537"
   ]
