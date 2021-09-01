@@ -6,14 +6,14 @@
         "1630453294816c5d56-0": {
           "type": "heading",
           "settings": {
-            "heading": "Australian Boulder Opal",
+            "heading": "AUSTRALIAN BOULDER OPALS",
             "heading_size": "medium"
           }
         },
         "1630453294816c5d56-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>EXCLUSIVELY FOR THE JEWELRY TRADE    <\/p>"
           }
         }
       },
@@ -32,16 +32,16 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our Exclusive Catalogue"
+            "heading": "Shop our Catalogue"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Visit as a Guest",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
-            "button_label_2": "Login",
+            "button_label_2": "Login \/ Register",
             "button_link_2": "\/account\/login",
             "button_style_secondary_2": true
           }
@@ -52,11 +52,45 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/desert-mountain.jpg",
-        "desktop_text_box_position": "flex-end",
+        "image": "shopify:\/\/shop_images\/1AF515CB-DD36-459C-B65E-A2303E16FFB0.png",
+        "desktop_text_box_position": "center",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
+      }
+    },
+    "1630468523a34ac72c": {
+      "type": "image-with-text",
+      "blocks": {
+        "1630468523a34ac72c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are for jewelers"
+          }
+        },
+        "1630468523a34ac72c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you a jeweler who wishes to work on custom, one-of-a-kind creations easily with your client? Here, you can both search and share our beautiful range of ethically mined and cut Australian boulder opals.<\/p><p><em>All prices are displayed, but only for our registered jewelers.<\/em><\/p>"
+          }
+        },
+        "1630468523a34ac72c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1630468523a34ac72c-0",
+        "1630468523a34ac72c-1",
+        "1630468523a34ac72c-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     },
     "16304545983b9706e9": {
@@ -71,6 +105,50 @@
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_vendor": false
+      }
+    },
+    "1630471433017f8823": {
+      "type": "multicolumn",
+      "blocks": {
+        "1630471433017f8823-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7889_3.jpg",
+            "title": "Easy & Convenient",
+            "text": "<p>Our site is built for jewelers and their highly discerning clientele. This means that your jewelry will always be one-of-kind with our natural Australian boulder opals.<\/p>"
+          }
+        },
+        "1630471433017f8823-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/93af56b0-0d7b-4e3c-8228-37a3b4088517_2.jpg",
+            "title": "Family owned",
+            "text": "<p>We are a small Queensland family business that supplies Australian boulder opals directly from our opal mines. <\/p>"
+          }
+        },
+        "1630471433017f8823-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/auswp2.jpg",
+            "title": "Ethical & Traceable",
+            "text": "<p>Since we mine and cut every opal, we know the full story of each gem. We're happy to answer any questions you may have.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630471433017f8823-2",
+        "1630471433017f8823-0",
+        "1630471433017f8823-1"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "163045369666223709": {
@@ -171,7 +249,9 @@
   "order": [
     "1630453294816c5d56",
     "image_banner",
+    "1630468523a34ac72c",
     "16304545983b9706e9",
+    "1630471433017f8823",
     "163045369666223709",
     "162858060615c4f238",
     "162858026462b45537"
