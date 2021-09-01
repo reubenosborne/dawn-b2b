@@ -46,47 +46,6 @@
         "swipe_on_mobile": false
       }
     },
-    "163048134815e096fb": {
-      "type": "multicolumn",
-      "blocks": {
-        "163048134815e096fb-0": {
-          "type": "column",
-          "settings": {
-            "title": "Do you offer returns?",
-            "text": ""
-          }
-        },
-        "163048134815e096fb-1": {
-          "type": "column",
-          "settings": {
-            "title": "Do you ship internationally?",
-            "text": ""
-          }
-        },
-        "163048134815e096fb-2": {
-          "type": "column",
-          "settings": {
-            "title": "How does shipping work?",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "163048134815e096fb-0",
-        "163048134815e096fb-1",
-        "163048134815e096fb-2"
-      ],
-      "settings": {
-        "title": "Shipping & Returns",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
     "1630482380bc49f9b2": {
       "type": "multicolumn",
       "blocks": {
@@ -128,6 +87,47 @@
         "swipe_on_mobile": false
       }
     },
+    "163048134815e096fb": {
+      "type": "multicolumn",
+      "blocks": {
+        "163048134815e096fb-0": {
+          "type": "column",
+          "settings": {
+            "title": "Do you offer returns?",
+            "text": ""
+          }
+        },
+        "163048134815e096fb-1": {
+          "type": "column",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "text": ""
+          }
+        },
+        "163048134815e096fb-2": {
+          "type": "column",
+          "settings": {
+            "title": "How does shipping work?",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "163048134815e096fb-0",
+        "163048134815e096fb-1",
+        "163048134815e096fb-2"
+      ],
+      "settings": {
+        "title": "Shipping & Returns",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "1630502429109bb3e1": {
       "type": "multicolumn",
       "blocks": {
@@ -145,7 +145,7 @@
             "text": ""
           }
         },
-        "1630502429109bb3e1-2": {
+        "e4055678-310a-4ea1-932d-54bfde4f6e90": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -156,7 +156,7 @@
       "block_order": [
         "1630502429109bb3e1-0",
         "1630502429109bb3e1-1",
-        "1630502429109bb3e1-2"
+        "e4055678-310a-4ea1-932d-54bfde4f6e90"
       ],
       "settings": {
         "title": "Photos & Videos",
@@ -200,7 +200,7 @@
         "163050319252b77ac4-2"
       ],
       "settings": {
-        "title": "Gem Cutting",
+        "title": "Opal Cutting",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -214,8 +214,8 @@
   "order": [
     "main",
     "16286572101f0ac7ee",
-    "163048134815e096fb",
     "1630482380bc49f9b2",
+    "163048134815e096fb",
     "1630502429109bb3e1",
     "163050319252b77ac4"
   ]
