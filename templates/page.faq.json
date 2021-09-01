@@ -53,21 +53,21 @@
           "type": "column",
           "settings": {
             "title": "Do you offer returns?",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": ""
           }
         },
         "163048134815e096fb-1": {
           "type": "column",
           "settings": {
             "title": "Do you ship internationally?",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": ""
           }
         },
         "163048134815e096fb-2": {
           "type": "column",
           "settings": {
             "title": "How does shipping work?",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": ""
           }
         }
       },
@@ -94,7 +94,7 @@
           "type": "column",
           "settings": {
             "title": "Are you prices wholesale or suggested retail?",
-            "text": "<p>Are prices are trade \/ wholesale prices.<\/p>"
+            "text": "<p>We are a B2B website and our prices are wholesale. <\/p>"
           }
         },
         "1630482380bc49f9b2-0": {
