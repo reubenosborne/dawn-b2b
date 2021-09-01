@@ -121,8 +121,8 @@
         "1630471433017f8823-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/View_from_the_opal_mine_at_Yaraka_after_rain.jpg",
-            "title": "Family owned",
+            "image": "shopify:\/\/shop_images\/93af56b0-0d7b-4e3c-8228-37a3b4088517_2.jpg",
+            "title": "Family Owned",
             "text": "<p>We are a small Queensland family business that supplies Australian boulder opals directly from our opal mines. <\/p>"
           }
         },
@@ -141,18 +141,19 @@
         "1630471433017f8823-1"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Why us?",
         "image_width": "full",
         "image_ratio": "portrait",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
     },
     "163045369666223709": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "163045369666223709-1": {
           "type": "text",
@@ -181,6 +182,7 @@
     },
     "162858060615c4f238": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "162858060615c4f238-0": {
           "type": "heading",
@@ -216,6 +218,7 @@
     },
     "162858026462b45537": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "162858026462b45537-0": {
           "type": "heading",
