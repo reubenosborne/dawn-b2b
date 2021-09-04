@@ -28,31 +28,7 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shop our Catalogue"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Visit as a Guest",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "Login \/ Register",
-            "button_link_2": "\/account\/login",
-            "button_style_secondary_2": true
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1AF515CB-DD36-459C-B65E-A2303E16FFB0.png",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -121,7 +97,6 @@
         "1630471433017f8823-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/93af56b0-0d7b-4e3c-8228-37a3b4088517_2.jpg",
             "title": "Family Owned",
             "text": "<p>We are a small Queensland family business that supplies Australian boulder opals directly from our opal mines. <\/p>"
           }
@@ -129,7 +104,6 @@
         "1630471433017f8823-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A_promising_opal_vein_in_a_Yaraka_boulder.jpg",
             "title": "Ethical & Traceable",
             "text": "<p>Since we mine and cut every opal, we know the full story of each gem. We're happy to answer any questions you may have.<\/p>"
           }
@@ -173,7 +147,6 @@
         "163045369666223709-0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/auswp2.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "inverse",
         "stack_images_on_mobile": true,
@@ -210,7 +183,6 @@
         "162858060615c4f238-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_8693_2_720x_0a97bb56-e57f-48e1-9719-4f8dd5799bbc.jpg",
         "height": "small",
         "color_scheme": "background-2",
         "layout": "image_first"
