@@ -53,6 +53,15 @@
           "type": "share",
           "settings": {
           }
+        },
+        "26972f19-6d6c-47f6-a498-3e80ec794965": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Carat",
+            "content": "<p>{{ product.metafields.my_fields.carats.value }}<\/p>",
+            "page": "",
+            "icon": "box"
+          }
         }
       },
       "block_order": [
@@ -64,7 +73,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "26972f19-6d6c-47f6-a498-3e80ec794965"
       ],
       "settings": {
         "enable_sticky_info": true,
