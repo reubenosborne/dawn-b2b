@@ -53,6 +53,15 @@
           "type": "share",
           "settings": {
           }
+        },
+        "0c47d6ce-087d-4b6e-8216-da3b3e061101": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "content": "<p><strong>Length<\/strong>: {{ product.metafields.my_fields.length | metafield_tag }}<br\/><strong>Width<\/strong>: {{ product.metafields.my_fields.width | metafield_tag }}<br\/><strong>Depth<\/strong>: {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
         }
       },
       "block_order": [
@@ -64,7 +73,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "0c47d6ce-087d-4b6e-8216-da3b3e061101"
       ],
       "settings": {
         "enable_sticky_info": true,
