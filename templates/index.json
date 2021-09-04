@@ -98,6 +98,7 @@
         "1630471433017f8823-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/93af56b0-0d7b-4e3c-8228-37a3b4088517_2.jpg",
             "title": "Family Owned",
             "text": "<p>We are a small Queensland family business that supplies Australian boulder opals directly from our opal mines. <\/p>"
           }
@@ -105,6 +106,7 @@
         "1630471433017f8823-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/A.jpg",
             "title": "Ethical & Traceable",
             "text": "<p>Since we mine and cut every opal, we know the full story of each gem. We're happy to answer any questions you may have.<\/p>"
           }
