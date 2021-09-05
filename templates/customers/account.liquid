@@ -11,7 +11,7 @@
     </a>
   </div>
 
-  {% if customer and customer.tags include aproved%}
+  {% if customer and customer.tags contains aproved%}
   	<div>
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
