@@ -723,6 +723,6 @@ li[data-address] > h2 {
 
 /* Custom CSS */
 
-.customer_form-request p {
-	padding-left: 3em;
+.customer_form-request h2 {
+	margin-right: 30px;
 }
