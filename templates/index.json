@@ -65,8 +65,9 @@
         "1630468523a34ac72c-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/93af56b0-0d7b-4e3c-8228-37a3b4088517_2.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "layout": "image_first"
       }
     },
@@ -74,7 +75,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Our most premium opal",
-        "collection": "all-opals",
+        "collection": "broad-flash-patterns",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -82,6 +83,12 @@
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_vendor": false
+      }
+    },
+    "163080163259e514b1": {
+      "type": "af-instagram-slider",
+      "settings": {
+        "text-box": "Please Save and Reload"
       }
     },
     "1630471433017f8823": {
@@ -156,41 +163,6 @@
         "adapt_height_first_image": false
       }
     },
-    "162858060615c4f238": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "162858060615c4f238-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Ethical Choice"
-          }
-        },
-        "162858060615c4f238-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At Broken River Mining we are committed to being both environmentally and socially responsible.<\/p><p><\/p><p>Sue and her small team use environmentally responsible procedures in mining and processing all BRM opals. We mine small sections of land at a time and we always rejuvenate the land when we are done.<\/p>"
-          }
-        },
-        "162858060615c4f238-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "162858060615c4f238-0",
-        "162858060615c4f238-1",
-        "162858060615c4f238-2"
-      ],
-      "settings": {
-        "height": "small",
-        "color_scheme": "background-2",
-        "layout": "image_first"
-      }
-    },
     "162858026462b45537": {
       "type": "newsletter",
       "disabled": true,
@@ -229,9 +201,9 @@
     "image_banner",
     "1630468523a34ac72c",
     "16304545983b9706e9",
+    "163080163259e514b1",
     "1630471433017f8823",
     "163045369666223709",
-    "162858060615c4f238",
     "162858026462b45537"
   ]
 }
