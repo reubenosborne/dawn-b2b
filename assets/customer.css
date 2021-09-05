@@ -724,5 +724,5 @@ li[data-address] > h2 {
 /* Custom CSS */
 
 .customer_form-request p {
-  max-width: 600px;
+	padding-left: 3em;
 }
