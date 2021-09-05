@@ -2,7 +2,8 @@
 
 <div class="customer account">
 
-  {% if customer and customer.tags contains aproved%}
+  {% if customer and customer.tags contains 'approved' %}
+  
   <div>
     <h1>{{ 'customer.account.title' | t }}</h1>
     <a href="{{ routes.account_logout_url }}">
