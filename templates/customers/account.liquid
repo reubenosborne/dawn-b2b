@@ -1,6 +1,8 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
 <div class="customer account">
+
+  {% if customer and customer.tags contains aproved%}
   <div>
     <h1>{{ 'customer.account.title' | t }}</h1>
     <a href="{{ routes.account_logout_url }}">
@@ -10,8 +12,6 @@
       {{ 'customer.log_out' | t }}
     </a>
   </div>
-
-  {% if customer and customer.tags contains aproved%}
   	<div>
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
