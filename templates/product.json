@@ -54,6 +54,15 @@
           "settings": {
           }
         },
+        "fc922e8a-0562-4a48-af74-e4b57128b6fa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "content": "<p>{{ product.metafields.my_fields.carats.value }} Carats<\/p>",
+            "page": "",
+            "icon": "star"
+          }
+        },
         "0c47d6ce-087d-4b6e-8216-da3b3e061101": {
           "type": "collapsible_tab",
           "settings": {
@@ -74,6 +83,7 @@
         "buy_buttons",
         "description",
         "share",
+        "fc922e8a-0562-4a48-af74-e4b57128b6fa",
         "0c47d6ce-087d-4b6e-8216-da3b3e061101"
       ],
       "settings": {
