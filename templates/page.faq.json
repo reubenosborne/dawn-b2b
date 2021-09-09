@@ -24,6 +24,7 @@
         },
         "16286572101f0ac7ee-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "I am a private collector, how can I purchase?",
             "text": "<p>Since our site is strictly wholesale, we aren't able to sell to you directly. But we would be more than happy to connect you, so please feel free to get in touch. <\/p>"
@@ -142,11 +143,12 @@
           "type": "column",
           "settings": {
             "title": "Are your photos reliable?",
-            "text": ""
+            "text": "<p>Opals are extremely difficult to both photograph and film. We also find the higher the opal grade, the more camera shy they are. That being said, we do not post-edit or manipulate our images. Instead we aim for realistic photos and videos.  Therefore our opals will look as are, or even better in real life, than on our website. <\/p>"
           }
         },
         "e4055678-310a-4ea1-932d-54bfde4f6e90": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
