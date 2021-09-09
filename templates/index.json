@@ -65,9 +65,9 @@
         "1630468523a34ac72c-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_1059.jpg",
-        "height": "small",
-        "color_scheme": "accent-2",
+        "image": "shopify:\/\/shop_images\/IMG_1059_2.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
         "layout": "image_first"
       }
     },
