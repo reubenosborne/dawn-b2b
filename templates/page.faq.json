@@ -8,6 +8,13 @@
     "16286572101f0ac7ee": {
       "type": "multicolumn",
       "blocks": {
+        "16286572101f0ac7ee-2": {
+          "type": "column",
+          "settings": {
+            "title": "Who are we?",
+            "text": "<p>We are Broken River Mining and this is our B2B website. <\/p>"
+          }
+        },
         "16286572101f0ac7ee-0": {
           "type": "column",
           "settings": {
@@ -21,20 +28,12 @@
             "title": "I am looking for an opal but I don't see it on the website?",
             "text": "<p>Let us know. We often have opals that are not listed on the website and may have what you are looking for.<\/p>"
           }
-        },
-        "16286572101f0ac7ee-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "I am a private collector, how can I purchase?",
-            "text": "<p>Since our site is strictly wholesale, we aren't able to sell to you directly. But we would be more than happy to connect you, so please feel free to get in touch. <\/p>"
-          }
         }
       },
       "block_order": [
+        "16286572101f0ac7ee-2",
         "16286572101f0ac7ee-0",
-        "16286572101f0ac7ee-1",
-        "16286572101f0ac7ee-2"
+        "16286572101f0ac7ee-1"
       ],
       "settings": {
         "title": "Frequently Asked Questions",
@@ -174,6 +173,13 @@
     "163050319252b77ac4": {
       "type": "multicolumn",
       "blocks": {
+        "163050319252b77ac4-2": {
+          "type": "column",
+          "settings": {
+            "title": "How are your opals mined?",
+            "text": ""
+          }
+        },
         "163050319252b77ac4-1": {
           "type": "column",
           "settings": {
@@ -187,10 +193,43 @@
             "title": "Can you recut an opal for me?",
             "text": "<p>No, unfortunately, we can't. There is a lot of risk in the cutting process. It is also time-consuming.   We don't want an opal, or a relationship, to be damaged because of an accident during cutting, so we've decided to only cut our own stones. <\/p>"
           }
-        },
-        "163050319252b77ac4-2": {
+        }
+      },
+      "block_order": [
+        "163050319252b77ac4-2",
+        "163050319252b77ac4-1",
+        "163050319252b77ac4-0"
+      ],
+      "settings": {
+        "title": "Opal Mining & Cutting",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1631173390d75cfd55": {
+      "type": "multicolumn",
+      "blocks": {
+        "1631173390d75cfd55-0": {
           "type": "column",
-          "disabled": true,
+          "settings": {
+            "title": "I am a private collector, how can I purchase?",
+            "text": "<p>Since our site is strictly wholesale, we aren't able to sell to you directly. But we would be more than happy to connect you, so please feel free to get in touch. <\/p>"
+          }
+        },
+        "1631173390d75cfd55-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1631173390d75cfd55-2": {
+          "type": "column",
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
@@ -198,12 +237,12 @@
         }
       },
       "block_order": [
-        "163050319252b77ac4-1",
-        "163050319252b77ac4-0",
-        "163050319252b77ac4-2"
+        "1631173390d75cfd55-0",
+        "1631173390d75cfd55-1",
+        "1631173390d75cfd55-2"
       ],
       "settings": {
-        "title": "Opal Cutting",
+        "title": "OTHER",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -220,6 +259,7 @@
     "1630482380bc49f9b2",
     "163048134815e096fb",
     "1630502429109bb3e1",
-    "163050319252b77ac4"
+    "163050319252b77ac4",
+    "1631173390d75cfd55"
   ]
 }
