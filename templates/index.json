@@ -75,7 +75,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Our most premium opal",
-        "collection": "broad-flash-patterns",
+        "collection": "featured-opals",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
