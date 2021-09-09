@@ -201,6 +201,7 @@
         "1630802196b434f6a4-0": {
           "type": "video",
           "settings": {
+            "cover_image": "shopify:\/\/shop_images\/IMG_7864_3.jpg",
             "video_url": "https:\/\/vimeo.com\/434986810",
             "description": "Describe the video for customers using screen readers",
             "image_padding": false
