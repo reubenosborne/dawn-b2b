@@ -177,88 +177,6 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "163050319252b77ac4": {
-      "type": "multicolumn",
-      "blocks": {
-        "163050319252b77ac4-2": {
-          "type": "column",
-          "settings": {
-            "title": "How are your opals mined?",
-            "text": "<p>At Broken River Mining we use open cut techniques to mine boulder opal in central western Queensland, Australia. Sue and her small team use environmentally responsible procedures in mining and processing all our boulder opals. We mine small sections of land at a time and we always rejuvenate the land when we are done. <\/p>"
-          }
-        },
-        "163050319252b77ac4-1": {
-          "type": "column",
-          "settings": {
-            "title": "How are your opals cut?",
-            "text": "<p>Our opals are all cut by hand by professional boulder opal cutters. Each opal takes many hours or even days to process from a rough piece of boulder opal to a finished polished opal gemstone.<\/p>"
-          }
-        },
-        "163050319252b77ac4-0": {
-          "type": "column",
-          "settings": {
-            "title": "Can you recut an opal for me?",
-            "text": "<p>No, unfortunately, we can't. There is a lot of risk in the cutting process. It is also time-consuming.   We don't want an opal, or a relationship, to be damaged because of an accident during cutting, so we've decided to only cut our own stones. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "163050319252b77ac4-2",
-        "163050319252b77ac4-1",
-        "163050319252b77ac4-0"
-      ],
-      "settings": {
-        "title": "Opal Mining & Cutting",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "1631173390d75cfd55": {
-      "type": "multicolumn",
-      "blocks": {
-        "1631173390d75cfd55-0": {
-          "type": "column",
-          "settings": {
-            "title": "I am a private collector, how can I purchase?",
-            "text": "<p>Since our site is strictly wholesale, we aren't able to sell to you directly. But we would be more than happy to connect you, so please feel free to get in touch. <\/p>"
-          }
-        },
-        "1631173390d75cfd55-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1631173390d75cfd55-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1631173390d75cfd55-0",
-        "1631173390d75cfd55-1",
-        "1631173390d75cfd55-2"
-      ],
-      "settings": {
-        "title": "OTHER",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
     }
   },
   "order": [
@@ -266,8 +184,6 @@
     "16286572101f0ac7ee",
     "1630482380bc49f9b2",
     "163048134815e096fb",
-    "1630502429109bb3e1",
-    "163050319252b77ac4",
-    "1631173390d75cfd55"
+    "1630502429109bb3e1"
   ]
 }
