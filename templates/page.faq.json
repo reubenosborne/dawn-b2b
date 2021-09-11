@@ -22,6 +22,13 @@
             "text": "<p>We are boulder opal miners and cutters based in Queensland, Australia. This is the only place in the world where boulder opal is found. <\/p>"
           }
         },
+        "bf68d482-911e-4afa-8896-684a64aa9f5b": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
         "16286572101f0ac7ee-1": {
           "type": "column",
           "settings": {
@@ -33,6 +40,7 @@
       "block_order": [
         "16286572101f0ac7ee-2",
         "16286572101f0ac7ee-0",
+        "bf68d482-911e-4afa-8896-684a64aa9f5b",
         "16286572101f0ac7ee-1"
       ],
       "settings": {
