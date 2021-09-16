@@ -12,11 +12,12 @@
           "type": "column",
           "settings": {
             "title": "Who are we?",
-            "text": "<p>We are Broken River Mining and this is our B2B website. <\/p>"
+            "text": "<p>We are Broken River Mining and this is our B2B website. We are boulder opal miners and cutters based in Queensland, Australia. This is the only place in the world where boulder opal is found. <\/p>"
           }
         },
         "16286572101f0ac7ee-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Where are you based?",
             "text": "<p>We are boulder opal miners and cutters based in Queensland, Australia. This is the only place in the world where boulder opal is found. <\/p>"
@@ -98,32 +99,32 @@
     "163048134815e096fb": {
       "type": "multicolumn",
       "blocks": {
-        "163048134815e096fb-0": {
-          "type": "column",
-          "settings": {
-            "title": "Do you offer returns?",
-            "text": ""
-          }
-        },
         "163048134815e096fb-1": {
           "type": "column",
           "settings": {
             "title": "Do you ship internationally?",
-            "text": ""
+            "text": "<p>Yes. We are based in Australia and ship internationally to most countries.  <\/p>"
           }
         },
         "163048134815e096fb-2": {
           "type": "column",
           "settings": {
             "title": "How does shipping work?",
-            "text": ""
+            "text": "<p>We have a range of different shipping options available to select from. Please note however that all custom duties and taxes are the responsibility of the recipient. <\/p>"
+          }
+        },
+        "163048134815e096fb-0": {
+          "type": "column",
+          "settings": {
+            "title": "Do you offer returns?",
+            "text": "<p>Yes. We want you to be 100% happy with your purchase. To discuss a return, please contact us here.<\/p>"
           }
         }
       },
       "block_order": [
-        "163048134815e096fb-0",
         "163048134815e096fb-1",
-        "163048134815e096fb-2"
+        "163048134815e096fb-2",
+        "163048134815e096fb-0"
       ],
       "settings": {
         "title": "Shipping & Returns",
