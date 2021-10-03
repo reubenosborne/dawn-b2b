@@ -54,26 +54,35 @@
             "type": "link_list",
             "settings": {
               "heading": "Policies",
-              "menu": "footer"
+              "menu": "footer-menu"
             }
           },
           "928d30dc-7af1-47f8-b2eb-17fed2cc5835": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "heading": "Thank You",
               "subtext": "<p>We are extremely privileged to get to do what we love – working in the Australian outback, finding our beloved opals and travelling around the world to showcase them.<br\/><br\/>To all our customers, thank you for your ongoing support in sharing our love for Australian boulder opals. We couldn’t do any of it without you!<\/p>"
+            }
+          },
+          "a4efc8ee-767d-4d4b-a7d9-5032989cb03c": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "928d30dc-7af1-47f8-b2eb-17fed2cc5835"
+          "928d30dc-7af1-47f8-b2eb-17fed2cc5835",
+          "a4efc8ee-767d-4d4b-a7d9-5032989cb03c"
         ],
         "settings": {
           "color_scheme": "inverse",
           "newsletter_enable": false,
           "newsletter_heading": "",
-          "show_social": true,
+          "show_social": false,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
