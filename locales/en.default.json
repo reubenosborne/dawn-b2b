@@ -178,7 +178,7 @@
     "header": {
       "announcement": "Announcement",
       "menu": "Menu",
-      "buyer-menu": "Buyer Menu",
+      "buyer_menu": "Buyer Menu",
       "cart_count": {
         "one": "{{ count }} item",
         "other": "{{ count }} items"
