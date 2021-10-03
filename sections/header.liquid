@@ -64,7 +64,9 @@
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
 
 {% if customer and customer.tags contains 'approved' %}
-	{% assign menu = section.settings.buyer_menu.links %}
+	{% assign conditional_menu = section.settings.buyer_menu.links %}
+{% else %}
+    {% assign conditional_menu = section.settings.buyer_menu.links %}
 {% endif %}
 
 <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
