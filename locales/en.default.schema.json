@@ -618,9 +618,6 @@
         "menu": {
           "label": "Menu"
         },
-        "buyer-menu": {
-          "label": "Buyer Menu"
-        },
         "show_line_separator": {
           "label": "Show separator line"
         },
