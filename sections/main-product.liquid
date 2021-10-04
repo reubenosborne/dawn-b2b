@@ -71,7 +71,8 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
           {%- when 'countdown' -%}
-            <p>Dropping on {{ product.metafields.my_fields.release_date }}</p>
+        <p>Dropping in <span id="countdown_placeholder" /> {{ product.metafields.my_fields.release_date }}</p>
+			<script src="{{ 'countdown.js' | asset_url }}" defer="defer"></script>
           {%- when '@app' -%}
             {% render block %}
           {%- when 'text' -%}
