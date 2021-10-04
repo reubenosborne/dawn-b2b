@@ -76,7 +76,7 @@
           "type": "column",
           "settings": {
             "title": "What kind of payment options do you accept?",
-            "text": ""
+            "text": "<p>We accept all all major credit cards, bank deposits, as well as Apple Pay, Shop Pay, Facebook Pay and Shop Pay. <\/p>"
           }
         }
       },
