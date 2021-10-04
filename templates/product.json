@@ -66,6 +66,16 @@
             "page": "",
             "icon": "ruler"
           }
+        },
+        "bb0f4049-9d2e-4c64-b5e7-1457d305b243": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Grade",
+            "content": "",
+            "page": "australian-boulder-opal-grades",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
@@ -78,7 +88,8 @@
         "description",
         "share",
         "fc922e8a-0562-4a48-af74-e4b57128b6fa",
-        "0c47d6ce-087d-4b6e-8216-da3b3e061101"
+        "0c47d6ce-087d-4b6e-8216-da3b3e061101",
+        "bb0f4049-9d2e-4c64-b5e7-1457d305b243"
       ],
       "settings": {
         "enable_sticky_info": true,
