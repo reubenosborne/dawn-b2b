@@ -27,6 +27,11 @@
           "settings": {
           }
         },
+        "588b6a93-d226-42c3-b6a5-1633e06af377": {
+          "type": "countdown",
+          "settings": {
+          }
+        },
         "9d682a9b-a24e-4ec1-a447-9f09a85ab166": {
           "type": "collapsible_tab",
           "settings": {
@@ -51,6 +56,7 @@
         "title",
         "subtitle",
         "description",
+        "588b6a93-d226-42c3-b6a5-1633e06af377",
         "9d682a9b-a24e-4ec1-a447-9f09a85ab166",
         "0791aad5-0678-4977-90ad-65a32fb28ac2"
       ],
