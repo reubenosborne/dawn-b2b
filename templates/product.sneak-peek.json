@@ -22,6 +22,13 @@
             "text_style": "subtitle"
           }
         },
+        "fbe531b3-6232-4448-9281-7748c4f830ce": {
+          "type": "text",
+          "settings": {
+            "text": "PREVIEW ONLY - LAUNCHING SOON",
+            "text_style": "uppercase"
+          }
+        },
         "price": {
           "type": "price",
           "disabled": true,
@@ -53,13 +60,6 @@
           "settings": {
           }
         },
-        "fbe531b3-6232-4448-9281-7748c4f830ce": {
-          "type": "text",
-          "settings": {
-            "text": "PREVIEW ONLY - LAUNCHING SOON",
-            "text_style": "uppercase"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -88,12 +88,12 @@
         "vendor",
         "title",
         "subtitle",
+        "fbe531b3-6232-4448-9281-7748c4f830ce",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "fbe531b3-6232-4448-9281-7748c4f830ce",
         "share",
         "9d682a9b-a24e-4ec1-a447-9f09a85ab166",
         "0791aad5-0678-4977-90ad-65a32fb28ac2"
