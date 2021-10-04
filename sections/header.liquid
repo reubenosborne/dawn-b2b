@@ -288,13 +288,13 @@
         <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
           {%- if section.settings.logo != blank -%}
             {%- assign image_size = section.settings.logo_width | append: 'x' -%}
-            <img srcset="{{ section.settings.conditional_logo | img_url: image_size }} 1x, {{ section.settings.conditional_logo | img_url: image_size, scale: 2 }} 2x"
-              src="{{ section.settings.conditional_logo | img_url: image_size }}"
+            <img srcset="{{ conditional_logo | img_url: image_size }} 1x, {{ conditional_logo | img_url: image_size, scale: 2 }} 2x"
+              src="{{ conditional_logo | img_url: image_size }}"
               loading="lazy"
               class="header__heading-logo"
-              width="{{ section.settings.conditional_logo.width }}"
-              height="{{ section.settings.conditional_logo.height }}"
-              alt="{{ section.settings.conditional_logo.alt | default: shop.name | escape }}"
+              width="{{ conditional_logo.width }}"
+              height="{{ conditional_logo.height }}"
+              alt="{{ conditional_logo.alt | default: shop.name | escape }}"
             >
           {%- else -%}
             <span class="h2">{{ shop.name }}</span>
@@ -516,9 +516,9 @@
     "@context": "http://schema.org",
     "@type": "Organization",
     "name": {{ shop.name | json }},
-    {% if section.settings.conditional_logo %}
-      {% assign image_size = section.settings.conditional_logo.width | append: 'x' %}
-      "logo": {{ section.settings.conditional_logo | img_url: image_size | prepend: "https:" | json }},
+    {% if conditional_logo %}
+      {% assign image_size = conditional_logo.width | append: 'x' %}
+      "logo": {{ conditional_logo | img_url: image_size | prepend: "https:" | json }},
     {% endif %}
     "sameAs": [
       {{ settings.social_twitter_link | json }},
