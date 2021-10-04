@@ -33,12 +33,6 @@
             "picker_type": "button"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -59,7 +53,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Specifications",
-            "content": "<p>{{ product.metafields.my_fields.carats.value }} Carats<\/p>",
+            "content": "<p>{{ product.metafields.my_fields.carats.value }} Carat {{ product.metafields.my_fields.opal_type.value }}  mined in  {{ product.metafields.my_fields.mine.value }}<\/p>",
             "page": "",
             "icon": "star"
           }
@@ -80,7 +74,6 @@
         "subtitle",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "description",
         "share",
