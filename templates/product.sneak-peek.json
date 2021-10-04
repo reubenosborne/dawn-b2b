@@ -25,7 +25,7 @@
         "fbe531b3-6232-4448-9281-7748c4f830ce": {
           "type": "text",
           "settings": {
-            "text": "Dropping In {{ product.metafields.my_fields.release_date | metafield_text }}",
+            "text": "Dropping on {{ product.metafields.my_fields.release_date | metafield_text }}",
             "text_style": "uppercase"
           }
         },
