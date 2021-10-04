@@ -57,6 +57,24 @@
           "type": "share",
           "settings": {
           }
+        },
+        "9d682a9b-a24e-4ec1-a447-9f09a85ab166": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "content": "<p>{{ product.metafields.my_fields.carats.value }} Carats<\/p>",
+            "page": "",
+            "icon": "star"
+          }
+        },
+        "0791aad5-0678-4977-90ad-65a32fb28ac2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "content": "<p><strong>Length: <\/strong>{{ product.metafields.my_fields.length | metafield_tag }}<br\/><strong>Width: <\/strong>{{ product.metafields.my_fields.width | metafield_tag }}<br\/><strong>Depth: <\/strong>{{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
         }
       },
       "block_order": [
@@ -68,7 +86,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "9d682a9b-a24e-4ec1-a447-9f09a85ab166",
+        "0791aad5-0678-4977-90ad-65a32fb28ac2"
       ],
       "settings": {
         "enable_sticky_info": true,
