@@ -40,6 +40,7 @@
         "type": "header",
         "settings": {
           "logo": "shopify:\/\/shop_images\/Broken-River-Logo-Circle-Device_LARGE_347ff534-dbe3-471d-8f64-7002f6491042.jpg",
+          "buyer_logo": "shopify:\/\/shop_images\/Broken-River-Logo_LARGE_63d8262c-7796-4510-8cd8-d3647ace560d.jpg",
           "logo_width": 100,
           "logo_position": "top-center",
           "menu": "main-menu",
