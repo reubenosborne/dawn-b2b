@@ -599,6 +599,9 @@
         "logo": {
           "label": "Logo image"
         },
+        "buyer_logo": {
+          "label": "Logo image"
+        },
         "logo_width": {
           "unit": "px",
           "label": "Custom logo width"
