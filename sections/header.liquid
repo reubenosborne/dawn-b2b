@@ -65,8 +65,10 @@
 
 {% if customer and customer.tags contains 'approved' %}
 	{% assign conditional_menu = section.settings.buyer_menu.links %}
+	{% assign conditional_logo = section.section.settings.buyer_logo %}
 {% else %}
     {% assign conditional_menu = section.settings.menu.links %}
+    {% assign conditional_logo = section.section.settings.logo %}
 {% endif %}
 
 <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
