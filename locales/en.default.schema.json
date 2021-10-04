@@ -1117,6 +1117,9 @@
         "title": {
           "name": "Title"
         },
+        "price": {
+          "name": "Price"
+        },
         "quantity_selector": {
           "name": "Quantity selector"
         },
