@@ -1118,7 +1118,7 @@
           "name": "Title"
         },
         "price": {
-          "name": "Price"
+          "name": "Countdown"
         },
         "quantity_selector": {
           "name": "Quantity selector"
