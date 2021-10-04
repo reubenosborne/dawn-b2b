@@ -52,10 +52,10 @@
         "fc922e8a-0562-4a48-af74-e4b57128b6fa": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Specifications",
+            "heading": "Details",
             "content": "<p>{{ product.metafields.my_fields.carats.value }} Carat {{ product.metafields.my_fields.opal_type.value }}  mined in  {{ product.metafields.my_fields.mine.value }}<\/p>",
             "page": "",
-            "icon": "star"
+            "icon": "chat_bubble"
           }
         },
         "0c47d6ce-087d-4b6e-8216-da3b3e061101": {
