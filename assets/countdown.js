@@ -28,4 +28,4 @@ var x = setInterval(function() {
 }, 1000);
 */
 
-console.log()
+console.log("Hello")
