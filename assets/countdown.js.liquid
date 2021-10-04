@@ -1,5 +1,4 @@
 var countDownDate = new Date(productMetaCountdown).getTime();
-console.log("Countdown", productMetaCountdown)
 
 // Update the count down every 1 second
 var x = setInterval(function() {
