@@ -70,6 +70,8 @@
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
+          {%- when 'countdown' -%}
+            <p>Dropping on {{ product.metafields.my_fields.release_date }}</p>
           {%- when '@app' -%}
             {% render block %}
           {%- when 'text' -%}
