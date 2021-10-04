@@ -26,4 +26,4 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-document.getElementById('countdown_placeholder').innerHTML = ""
+console.log("")
