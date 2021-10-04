@@ -74,7 +74,9 @@
           {%- case block.type -%}
           {%- when 'countdown' -%}
         	<p>Dropping in <span id="countdown_placeholder"></span></p>
-			<script src="{{ 'countdown.js' | asset_url }}" defer="defer"></script>
+			<script>
+			  console.log(productMetaCountdown)
+			</script>
           {%- when '@app' -%}
             {% render block %}
           {%- when 'text' -%}
