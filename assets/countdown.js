@@ -1,4 +1,4 @@
-var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+var countDownDate = new Date(productMetaCountdown).getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -25,6 +25,3 @@ var x = setInterval(function() {
     document.getElementById("countdown_placeholder").innerHTML = "EXPIRED";
   }
 }, 1000);
-
-
-console.log(productMetaCountdown)
