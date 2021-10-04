@@ -1,6 +1,9 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
 <div class="customer account">
+
+  {% if customer and customer.tags contains 'approved' %}
+  
   <div>
     <h1>{{ 'customer.account.title' | t }}</h1>
     <a href="{{ routes.account_logout_url }}">
@@ -10,8 +13,7 @@
       {{ 'customer.log_out' | t }}
     </a>
   </div>
-
-  <div>
+  	<div>
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
 
@@ -113,6 +115,13 @@
         {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
       </a>
     </div>
-
   </div>
+    
+  {% else %}
+      <h2>One more step!</h2>
+        <p>
+          Thanks for expressing interest in joining the BRM Wholesale catalogue. Please fill our activation form to finalise your account. We will review your details and be in touch.
+        </p>
+    <a href="https://forms.gle/axMaub1eyshi9D27A">Account Activation Form</a>
+  {% endif %}
 </div>

@@ -1,7 +1,14 @@
 {
   "sections": {
     "main": {
-      "type": "main-list-collections"
+      "type": "main-list-collections",
+      "settings": {
+        "title": "Collections",
+        "sort": "products_high",
+        "image_ratio": "portrait",
+        "color_scheme": "background-2",
+        "image_padding": false
+      }
     }
   },
   "order": [

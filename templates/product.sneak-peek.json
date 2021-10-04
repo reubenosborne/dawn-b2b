@@ -18,28 +18,39 @@
         "subtitle": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.my_fields.grade.value }}",
+            "text": "Subtitle",
             "text_style": "subtitle"
+          }
+        },
+        "fbe531b3-6232-4448-9281-7748c4f830ce": {
+          "type": "text",
+          "settings": {
+            "text": "PREVIEW ONLY - LAUNCHING SOON",
+            "text_style": "uppercase"
           }
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false
           }
@@ -54,7 +65,7 @@
           "settings": {
           }
         },
-        "fc922e8a-0562-4a48-af74-e4b57128b6fa": {
+        "9d682a9b-a24e-4ec1-a447-9f09a85ab166": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Specifications",
@@ -63,11 +74,11 @@
             "icon": "star"
           }
         },
-        "0c47d6ce-087d-4b6e-8216-da3b3e061101": {
+        "0791aad5-0678-4977-90ad-65a32fb28ac2": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Dimensions",
-            "content": "<p><strong>Length<\/strong>: {{ product.metafields.my_fields.length | metafield_tag }}<br\/><strong>Width<\/strong>: {{ product.metafields.my_fields.width | metafield_tag }}<br\/><strong>Depth<\/strong>: {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
+            "content": "<p><strong>Length: <\/strong>{{ product.metafields.my_fields.length | metafield_tag }}<br\/><strong>Width: <\/strong>{{ product.metafields.my_fields.width | metafield_tag }}<br\/><strong>Depth: <\/strong>{{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
             "page": "",
             "icon": "ruler"
           }
@@ -77,14 +88,15 @@
         "vendor",
         "title",
         "subtitle",
+        "fbe531b3-6232-4448-9281-7748c4f830ce",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
         "share",
-        "fc922e8a-0562-4a48-af74-e4b57128b6fa",
-        "0c47d6ce-087d-4b6e-8216-da3b3e061101"
+        "9d682a9b-a24e-4ec1-a447-9f09a85ab166",
+        "0791aad5-0678-4977-90ad-65a32fb28ac2"
       ],
       "settings": {
         "enable_sticky_info": true,

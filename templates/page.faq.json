@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16286572101f0ac7ee": {
+      "type": "multicolumn",
+      "blocks": {
+        "16286572101f0ac7ee-2": {
+          "type": "column",
+          "settings": {
+            "title": "Who are we?",
+            "text": "<p>We are Broken River Mining and this is our B2B website. We are boulder opal miners and cutters based in Queensland, Australia. This is the only place in the world where boulder opal is found. <\/p>"
+          }
+        },
+        "16286572101f0ac7ee-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Where are you based?",
+            "text": "<p>We are boulder opal miners and cutters based in Queensland, Australia. This is the only place in the world where boulder opal is found. <\/p>"
+          }
+        },
+        "bf68d482-911e-4afa-8896-684a64aa9f5b": {
+          "type": "column",
+          "settings": {
+            "title": "What is the difference between your B2B website and your sister site, brokenrivermining.com?",
+            "text": "<p>This site is specifically designed for our registered jewelers and their clients. At our sister site, brokenrivermining.com, both our prices and opals are accessible to the public.<\/p>"
+          }
+        },
+        "16286572101f0ac7ee-1": {
+          "type": "column",
+          "settings": {
+            "title": "I am looking for an opal but I don't see it on the website?",
+            "text": "<p>Let us know. We often have opals that are not listed on the website and may have what you are looking for.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16286572101f0ac7ee-2",
+        "16286572101f0ac7ee-0",
+        "bf68d482-911e-4afa-8896-684a64aa9f5b",
+        "16286572101f0ac7ee-1"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1630482380bc49f9b2": {
+      "type": "multicolumn",
+      "blocks": {
+        "1630482380bc49f9b2-2": {
+          "type": "column",
+          "settings": {
+            "title": "Are you prices wholesale or suggested retail?",
+            "text": "<p>We are a B2B website and our prices are wholesale. <\/p>"
+          }
+        },
+        "1630482380bc49f9b2-0": {
+          "type": "column",
+          "settings": {
+            "title": "Why can I only request availability?",
+            "text": "<p>We want to save you the disappointment of your selected opal being unavailable. The opal you are looking at could currently be at a trade show. When you request availability, we confirm that your particular opal is immediately available and then contact you to finalize payment and shipping details. <\/p>"
+          }
+        },
+        "1630482380bc49f9b2-1": {
+          "type": "column",
+          "settings": {
+            "title": "What kind of payment options do you accept?",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1630482380bc49f9b2-2",
+        "1630482380bc49f9b2-0",
+        "1630482380bc49f9b2-1"
+      ],
+      "settings": {
+        "title": "Prices & Payment",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "163048134815e096fb": {
+      "type": "multicolumn",
+      "blocks": {
+        "163048134815e096fb-1": {
+          "type": "column",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "text": "<p>Yes. We are based in Australia and ship internationally to most countries.  <\/p>"
+          }
+        },
+        "163048134815e096fb-2": {
+          "type": "column",
+          "settings": {
+            "title": "How does shipping work?",
+            "text": "<p>We have a range of different shipping options available to select from. Please note however that all custom duties and taxes are the responsibility of the recipient. <\/p>"
+          }
+        },
+        "163048134815e096fb-0": {
+          "type": "column",
+          "settings": {
+            "title": "Do you offer exchanges?",
+            "text": "<p>Yes. We want you to be 100% happy with your purchase. To discuss an exchange, please contact us HERE. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163048134815e096fb-1",
+        "163048134815e096fb-2",
+        "163048134815e096fb-0"
+      ],
+      "settings": {
+        "title": "Shipping & Exchanges",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1630502429109bb3e1": {
+      "type": "multicolumn",
+      "blocks": {
+        "1630502429109bb3e1-0": {
+          "type": "column",
+          "settings": {
+            "title": "May I show videos and photos to a client?",
+            "text": "<p>Absolutely! We have both ... <\/p><p><\/p><p>Please don't post them anywhere else though, before checking with us first though <\/p>"
+          }
+        },
+        "1630502429109bb3e1-1": {
+          "type": "column",
+          "settings": {
+            "title": "Are your photos reliable?",
+            "text": "<p>Opals are extremely difficult to both photograph and film. We also find the higher the opal grade, the more camera shy they are. That being said, we do not post-edit or manipulate our images. Instead we aim for realistic photos and videos.  Therefore our opals will look as are, or even better in real life, than on our website. <\/p>"
+          }
+        },
+        "e4055678-310a-4ea1-932d-54bfde4f6e90": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630502429109bb3e1-0",
+        "1630502429109bb3e1-1",
+        "e4055678-310a-4ea1-932d-54bfde4f6e90"
+      ],
+      "settings": {
+        "title": "Photos & Videos",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16286572101f0ac7ee",
+    "1630482380bc49f9b2",
+    "163048134815e096fb",
+    "1630502429109bb3e1"
+  ]
+}

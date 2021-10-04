@@ -13,6 +13,14 @@
 
 {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
 
+{% if sort_by == 'created-descending' or sort_by == empty and collection.default_sort_by == 'created-descending' %}
+    {% assign collection_products = collection.products | sort: 'published_at' | reverse %}	
+{% elsif sort_by == 'created-ascending  ' or collection.sort_by == empty and collection.default_sort_by == 'created-ascending' %}
+    {% assign collection_products = collection.products | sort: 'published_at' %}	        
+{% else %}
+    {% assign collection_products = collection.products %}	        
+{% endif %}
+
 <div class="page-width collection-filters" id="main-collection-filters" data-id="{{ section.id }}">
   {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
     {%- assign total_active_values = 0 -%}
@@ -435,9 +443,9 @@
         <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="
           grid grid--2-col
           {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
-            {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
+            {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--2-col-tablet grid--one-third-max grid--3-col-desktop grid--quarter-max{% endif %}
           {% endif %} negative-margin">
-          {%- for product in collection.products -%}
+          {%- for product in collection_products -%}
             <li class="grid__item">
               {% render 'product-card',
                 product_card_product: product,
