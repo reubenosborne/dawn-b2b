@@ -71,8 +71,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Grade",
-            "content": "<p>Opal ID {{ product.metafields.my_fields.opal_id.value }} is {{ product.metafields.my_fields.grade.value }} grade.<\/p>",
-            "page": "australian-boulder-opal-grades",
+            "content": "<p>Opal ID {{ product.metafields.my_fields.opal_id.value }} is {{ product.metafields.my_fields.grade.value }}<\/p>",
+            "page": "{{ product.metafields.my_fields.grade_description.value }}",
             "icon": "price_tag"
           }
         }
