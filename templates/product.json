@@ -53,7 +53,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Details",
-            "content": "<p>{{ product.metafields.my_fields.carats.value }} carats<\/p><p>{{ product.metafields.my_fields.opal_type.value }}    <\/p><p>{{ product.metafields.my_fields.mine.value }}<\/p><p>{{ product.metafields.my_fields.grade.value }} grade<\/p>",
+            "content": "<p>{{ product.metafields.my_fields.carats.value }} carats<\/p><p>{{ product.metafields.my_fields.opal_type.value }}    <\/p><p>{{ product.metafields.my_fields.mine.value }}<\/p>",
             "page": "",
             "icon": "chat_bubble"
           }
