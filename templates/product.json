@@ -73,7 +73,7 @@
             "heading": "Grade",
             "content": "<p>Opal ID {{ product.metafields.my_fields.opal_id.value }} is {{ product.metafields.my_fields.grade.value }} grade.<\/p>",
             "page": "australian-boulder-opal-grades",
-            "icon": "check_mark"
+            "icon": "price_tag"
           }
         }
       },
