@@ -81,6 +81,7 @@
         {{ 'customer.register.email' | t }}
       </label>
     </div>
+    <input type="hidden" id="customer_tags" name="customer[tags]" value="pending"/>
     {%- if form.errors contains 'email' -%}
       <span id="RegisterForm-email-error" class="form__message">
         <svg aria-hidden="true" focusable="false" role="presentation">
