@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -27,16 +20,11 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
+        "f34ecbc5-f385-4f70-a977-f631401b784f": {
+          "type": "text",
           "settings": {
-            "picker_type": "button"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
+            "text": "This product is exclusively available at Tucson Gem & Jewelry show. Find us at Booth 100078 in the Matterhorn Hall",
+            "text_style": "body"
           }
         },
         "description": {
@@ -78,12 +66,10 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "subtitle",
         "price",
-        "variant_picker",
-        "buy_buttons",
+        "f34ecbc5-f385-4f70-a977-f631401b784f",
         "description",
         "share",
         "fc922e8a-0562-4a48-af74-e4b57128b6fa",
