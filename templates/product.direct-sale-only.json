@@ -3,11 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -15,8 +10,8 @@
             "text_style": "subtitle"
           }
         },
-        "description": {
-          "type": "description",
+        "title": {
+          "type": "title",
           "settings": {
           }
         },
@@ -25,6 +20,11 @@
           "settings": {
             "text": "EXCLUSIVE TO TRADESHOW",
             "text_style": "subtitle"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "share": {
@@ -58,25 +58,17 @@
             "page": "{{ product.metafields.my_fields.grade_description.value }}",
             "icon": "price_tag"
           }
-        },
-        "0883b434-a0f7-4b23-9b77-3b0f94b076e8": {
-          "type": "popup",
-          "settings": {
-            "link_label": "Hello",
-            "page": "contact-us"
-          }
         }
       },
       "block_order": [
-        "title",
         "subtitle",
-        "description",
+        "title",
         "ad345696-7d41-40e9-a446-667c9862483b",
+        "description",
         "share",
         "fc922e8a-0562-4a48-af74-e4b57128b6fa",
         "0c47d6ce-087d-4b6e-8216-da3b3e061101",
-        "bb0f4049-9d2e-4c64-b5e7-1457d305b243",
-        "0883b434-a0f7-4b23-9b77-3b0f94b076e8"
+        "bb0f4049-9d2e-4c64-b5e7-1457d305b243"
       ],
       "settings": {
         "enable_sticky_info": true,
