@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "Opal ID {{ product.metafields.my_fields.opal_id.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        },
+        "fc922e8a-0562-4a48-af74-e4b57128b6fa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Details",
+            "content": "<p>{{ product.metafields.my_fields.carats.value }} carats<\/p><p>{{ product.metafields.my_fields.opal_type.value }}    <\/p><p>{{ product.metafields.my_fields.mine.value }}<\/p>",
+            "page": "",
+            "icon": "chat_bubble"
+          }
+        },
+        "0c47d6ce-087d-4b6e-8216-da3b3e061101": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "content": "<p><strong>Length<\/strong>: {{ product.metafields.my_fields.length | metafield_tag }}<br\/><strong>Width<\/strong>: {{ product.metafields.my_fields.width | metafield_tag }}<br\/><strong>Depth<\/strong>: {{ product.metafields.my_fields.height | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
+        },
+        "bb0f4049-9d2e-4c64-b5e7-1457d305b243": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Grade",
+            "content": "<p>Opal ID {{ product.metafields.my_fields.opal_id.value }} is {{ product.metafields.my_fields.grade.value }}<\/p>",
+            "page": "{{ product.metafields.my_fields.grade_description.value }}",
+            "icon": "price_tag"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle",
+        "title",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "share",
+        "fc922e8a-0562-4a48-af74-e4b57128b6fa",
+        "0c47d6ce-087d-4b6e-8216-da3b3e061101",
+        "bb0f4049-9d2e-4c64-b5e7-1457d305b243"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}
