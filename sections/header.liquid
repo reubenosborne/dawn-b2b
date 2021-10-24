@@ -408,7 +408,6 @@
         </a>
       {%- endif -%}
 
-      {% if customer and customer.tags contains 'approved' %}
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link link--text focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
@@ -427,7 +426,6 @@
           </div>
         {%- endif -%}
       </a>
-      {% endif %}
       
     </div>
   </header>
