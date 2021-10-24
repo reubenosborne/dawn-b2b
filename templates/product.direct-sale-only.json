@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -22,26 +15,16 @@
             "text_style": "subtitle"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
+          }
+        },
+        "ad345696-7d41-40e9-a446-667c9862483b": {
+          "type": "text",
+          "settings": {
+            "text": "EXCLUSIVE TO TRADESHOW",
+            "text_style": "subtitle"
           }
         },
         "share": {
@@ -75,20 +58,25 @@
             "page": "{{ product.metafields.my_fields.grade_description.value }}",
             "icon": "price_tag"
           }
+        },
+        "0883b434-a0f7-4b23-9b77-3b0f94b076e8": {
+          "type": "popup",
+          "settings": {
+            "link_label": "Hello",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "subtitle",
-        "price",
-        "variant_picker",
-        "buy_buttons",
         "description",
+        "ad345696-7d41-40e9-a446-667c9862483b",
         "share",
         "fc922e8a-0562-4a48-af74-e4b57128b6fa",
         "0c47d6ce-087d-4b6e-8216-da3b3e061101",
-        "bb0f4049-9d2e-4c64-b5e7-1457d305b243"
+        "bb0f4049-9d2e-4c64-b5e7-1457d305b243",
+        "0883b434-a0f7-4b23-9b77-3b0f94b076e8"
       ],
       "settings": {
         "enable_sticky_info": true,
