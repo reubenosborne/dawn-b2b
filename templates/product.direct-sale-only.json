@@ -63,7 +63,7 @@
           "type": "popup",
           "settings": {
             "link_label": "Hello",
-            "page": ""
+            "page": "contact-us"
           }
         }
       },
