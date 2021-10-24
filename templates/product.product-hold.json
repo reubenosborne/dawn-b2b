@@ -20,16 +20,11 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
+        "ab6b27c0-1018-416a-88af-3ec45e7eb6a9": {
+          "type": "text",
           "settings": {
-            "picker_type": "button"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
+            "text": "ON HOLD FOR ANOTHER BUYER",
+            "text_style": "subtitle"
           }
         },
         "description": {
@@ -74,8 +69,7 @@
         "subtitle",
         "title",
         "price",
-        "variant_picker",
-        "buy_buttons",
+        "ab6b27c0-1018-416a-88af-3ec45e7eb6a9",
         "description",
         "share",
         "fc922e8a-0562-4a48-af74-e4b57128b6fa",
