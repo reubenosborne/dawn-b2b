@@ -64,7 +64,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Grade",
-            "content": "<p>Opal ID {{ product.metafields.my_fields.opal_id.value }} is {{ product.metafields.my_fields.grade.value }}<\/p>",
+            "content": "<p>Opal ID {{ product.metafields.my_fields.opal_id.value }} is a {{ product.metafields.my_fields.grade.value }} Grade boulder opal.<\/p>",
             "page": "{{ product.metafields.my_fields.grade_description.value }}",
             "icon": "price_tag"
           }
