@@ -11,15 +11,7 @@
 <noscript>{{ 'component-badge.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
-{%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
 
-{% if sort_by == 'created-descending' or sort_by == empty and collection.default_sort_by == 'created-descending' %}
-    {% assign collection_products = collection.products | sort: 'published_at' | reverse %}	
-{% elsif sort_by == 'created-ascending  ' or collection.sort_by == empty and collection.default_sort_by == 'created-ascending' %}
-    {% assign collection_products = collection.products | sort: 'published_at' %}	        
-{% else %}
-    {% assign collection_products = collection.products %}	        
-{% endif %}
 
 <div class="page-width collection-filters" id="main-collection-filters" data-id="{{ section.id }}">
   {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
